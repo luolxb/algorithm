@@ -45,7 +45,7 @@ public class SingleLinkedListDemo {
         addByOrderList.list();
 
         System.out.println("删除后...");
-        addByOrderList.del(2);
+        addByOrderList.del(1);
         addByOrderList.list();
 
     }
@@ -159,7 +159,7 @@ class SingleLinkedList {
         if (flag) {
             temp.next= temp.next.next;
         }else {
-            System.out.println("没有找到删除节点");
+            System.out.println("没有找到删除节点："+ no);
         }
 
     }
